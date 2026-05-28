@@ -48,10 +48,7 @@ def execute_pipeline():
 
     path = (
 
-        "/kaggle/input/datasets/"
-        "pg7729600/"
-        "nabard-dicra/"
-        "FINAL_CLEAN_DATASET.csv"
+        "data/FINAL_CLEAN_DATASET.csv"
     )
 
     results = run_master_pipeline(path)
